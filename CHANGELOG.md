@@ -4,7 +4,7 @@
 
 ### Changed
 
-- The README follows the bevy-coven org's documentation guide: the org banner, badges, a Status and a Why line, a quick start that is compiled as a doctest, a still image, and "What you can do" bullets linking `docs/guide/`, where every section it used to carry now lives unchanged. Image and file links are absolute URLs, so docs.rs shows them.
+- The README follows the dark-incorporated org's documentation guide: the org banner, badges, a Status and a Why line, a quick start that is compiled as a doctest, a still image, and "What you can do" bullets linking `docs/guide/`, where every section it used to carry now lives unchanged. Image and file links are absolute URLs, so docs.rs shows them.
 
 ### Added
 

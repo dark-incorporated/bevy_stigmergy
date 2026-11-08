@@ -1,6 +1,6 @@
 # Three gotchas worth knowing
 
-Moved from the README on 2026-10-31, unchanged, when the README was brought to the [org documentation guide](https://github.com/bevy-coven/.github/blob/main/DOCUMENTATION.md).
+Moved from the README on 2026-10-31, unchanged, when the README was brought to the [org documentation guide](https://github.com/dark-incorporated/.github/blob/main/DOCUMENTATION.md).
 
 - **A deposit masks its destination, not its path.** The kernel is a Euclidean disc that skips non-floor cells — not a flood fill and not a line-of-sight test — so a radius wide enough to span a wall still reaches the floor beyond it. That is deliberate (a smell or a sound goes round a corner). *Diffusion* is the pass that respects walls.
 - **Deposits accumulate with a non-associative `+=`.** If you produce them from an unordered source (an ECS query, a hash map), sort the batch before submitting or your field is not reproducible. This crate never sees the batch, only individual deposits, so it cannot do it for you.

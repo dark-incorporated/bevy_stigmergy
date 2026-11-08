@@ -4,7 +4,7 @@ Stigmergic influence fields over a fixed cell grid: `N` scalar channels that age
 
 ## Source of truth
 
-This repository, [`bevy-coven/bevy_stigmergy`](https://github.com/bevy-coven/bevy_stigmergy), is canonical since 2026-10-23: it moved to Bevy 0.20 while `foundation_vs_slop/crates/bevy_stigmergy` stays frozen on 0.19. Do not mirror over it with `scripts/mirror_crates.sh`. MIT OR Apache-2.0.
+This repository, [`dark-incorporated/bevy_stigmergy`](https://github.com/dark-incorporated/bevy_stigmergy), is canonical since 2026-10-23: it moved to Bevy 0.20 while `foundation_vs_slop/crates/bevy_stigmergy` stays frozen on 0.19. Do not mirror over it with `scripts/mirror_crates.sh`. MIT OR Apache-2.0.
 
 ## Build and test
 
@@ -36,4 +36,4 @@ Three things belong to the caller, and each is a thing this crate deliberately c
 
 A wrapper that holds those three and delegates the rest is the shape this is meant to be used in.
 
-README and docs follow https://github.com/bevy-coven/.github/blob/main/DOCUMENTATION.md; a feature is not done until its README line and, if visible, its GIF exist.
+README and docs follow https://github.com/dark-incorporated/.github/blob/main/DOCUMENTATION.md; a feature is not done until its README line and, if visible, its GIF exist.
